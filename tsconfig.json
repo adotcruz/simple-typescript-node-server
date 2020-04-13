@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "dist",
+    "paths": {
+      "@controllers/*": ["controllers/*"],
+      "@utils/*": ["utils/*"]
+    }
+  },
+  "lib": ["es2015"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", ".vscode"]
+}
